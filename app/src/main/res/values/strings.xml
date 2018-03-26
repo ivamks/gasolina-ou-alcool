@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Gasolina ou Alcool</string>
+    <string name="texto_botao_verificar">Verificar</string>
+    <string name="textoDescricaoId">Descubra qual combustível compensa mais para você!</string>
+</resources>
