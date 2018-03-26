@@ -23,6 +23,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/textoDescricaoId"
+        android:textAlignment="center"
+        android:id="@+id/textView3"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="42dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Preço do Álcool"
         android:id="@+id/textView"
         android:textColor="#ffffff"
@@ -101,15 +113,5 @@
         android:textColor="#FFFFFF"
         android:gravity="center" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/textoDescricaoId"
-        android:textAlignment="center"
-        android:id="@+id/textView3"
-        android:layout_above="@+id/textView"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginBottom="42dp" />
+
 </RelativeLayout>
